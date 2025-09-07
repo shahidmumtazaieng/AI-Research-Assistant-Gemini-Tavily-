@@ -1,8 +1,7 @@
+langchain
 langchain_google_genai
-langchain.agents
 langchain_tavily 
-langchain.memory
-langchain.schema 
 streamlit 
 dotenv
-langchain
+
+
