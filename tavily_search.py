@@ -15,7 +15,6 @@ load_dotenv()
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.5,
-    max_tokens=1024,
     max_retries=2,
     timeout=60,
     model_kwargs={"streaming": True},  # ✅ correct streaming
